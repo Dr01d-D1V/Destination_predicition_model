@@ -2,7 +2,7 @@
 import json
 import os
  
-source_json_file_path = "./source_timeline/Gmaps_Timeline_aaron.json"
+source_json_file_path = "./source_timeline/Updated_Gmaps_Timeline.json"
 formated_files_path = "./split_timelines/"
 
 def split_timeline_by_month(source_json_path, output_directory='.'):
